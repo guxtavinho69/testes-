@@ -1,0 +1,26 @@
+.Button {
+    display: flex;
+    
+}
+.title{
+    font-weight: 50;
+    border-style: solid 1px #c2c2c2;
+    margin: 25px;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    background-color: #FFF;
+    color:#000;
+}
+p{
+    font-weight: 600;
+}
+.title:hover{
+    background-color: #0085A1;
+    border-style: 0 0px #fff;
+    color: #FFF;
+    border-color: #FFF;
+    
+
+}
