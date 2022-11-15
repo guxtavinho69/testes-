@@ -1,15 +1,12 @@
-import './Button.css'
-import './App.css'
-import Button from './Button.jsx'
+import React from 'react'
+import Rotas from "./Rotas"
 
-function App() {
+
+function menu() {
   return(
-    <div className='Button'>
-      <Button titulo = "PREVIUS" descricao = "JQUERY: DETECT UPDATE OF HTML ELEMENT"/>
-      <Button titulo = "NEXT" descricao = "RAILS + DEVISE WORKING WITH MULTIPLE MODELS"/>
-    </div>
+    <Rotas/>
   )
 }
 
 
-export default App
+export default menu
